@@ -3,6 +3,6 @@ version: '3.6'
 services:
   firefox:
     hostname: 'firefox'
-    image: firefox # 'matze19999/firefoxondocker:latest'
+    image: 'matze19999/firefoxondocker:latest'
     volumes:
       - '/Docker/firefox/data:/firefox'
